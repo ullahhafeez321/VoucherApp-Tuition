@@ -34,21 +34,20 @@ A modern, cross-platform React Native mobile application that allows tutors and 
    git clone https://github.com/ullahhafeez321/VoucherApp-Tuition.git
    cd VoucherApp-Tuition
    ```
-Install dependencies
+2. **Install dependencies**
 
 ```bash
   npm install
-  Start the development server
 ```
-
+3. **Start the development server**
 ```bash
 npx expo start
 Run on your device
 ```
 
-Scan the QR code with Expo Go app (Android) or Camera app (iOS)
+4. **Scan the QR code with Expo Go app (Android) or Camera app (iOS)**
 
-Building for Production
+5. **Building for Production**
 ```bash
 # Build for Android
 npx expo run:android
