@@ -62,7 +62,8 @@ npx expo run:android
 
 # Build for iOS
 npx expo run:ios
-🛠️ Tech Stack
+
+# 🛠️ Tech Stack
 Framework: React Native + Expo
 
 Language: TypeScript
@@ -81,7 +82,7 @@ Sharing: expo-sharing
 
 Icons: React Native Vector Icons
 
-📁 Project Structure
+# 📁 Project Structure
 text
 VoucherApp/
 ├── app/                 # Expo Router screens
@@ -102,7 +103,7 @@ VoucherApp/
 ├── types/               # TypeScript definitions
 ├── utils/               # Helper functions
 └── assets/              # Images, fonts, icons
-💡 Usage
+## 💡 Usage
 Add Students: Go to Students tab to add student details
 
 Create Courses: Set up courses with respective fee structures
@@ -113,7 +114,7 @@ Manage History: View and search all generated vouchers
 
 Share Vouchers: Export and share vouchers as PDF
 
-🤝 Contributing
+## 🤝 Contributing
 We welcome contributions! Please feel free to submit issues, feature requests, or pull requests.
 
 Development Setup
@@ -127,22 +128,15 @@ Push to the branch (git push origin feature/AmazingFeature)
 
 Open a Pull Request
 
-📄 License
+## 📄 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-🙏 Acknowledgments
-Icons by Feather Icons
-
-UI components by React Native Paper
-
-The amazing React Native community
-
-📞 Support
+## 📞 Support
 If you have any questions or need help:
 
 Open an issue
 
 Contact: ullahhafeez321@gmail.com
 
-⭐ If you find this project useful, please give it a star!
+## ⭐ If you find this project useful, please give it a star!
 
