@@ -1,50 +1,151 @@
-# Welcome to your Expo app 👋
+# VoucherApp 🧾
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A modern, cross-platform React Native mobile application that allows tutors and educational institutions to generate, manage, and share professional tuition fee vouchers effortlessly.
 
-## Get started
+![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Expo](https://img.shields.io/badge/Expo-1B1F23?style=for-the-badge&logo=expo&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![Platform](https://img.shields.io/badge/Platform-Android%20%7C%20iOS-blue?style=for-the-badge)
 
-1. Install dependencies
+## ✨ Features
 
+- **⚡ Quick Voucher Generation** - Create professional vouchers in seconds
+- **👥 Student Management** - Save student details for quick reuse
+- **📚 Course Management** - Manage multiple courses and fee structures
+- **🎨 Professional Templates** - Multiple clean, professional voucher designs
+- **💾 Offline First** - Works completely offline with local data storage
+- **📤 Instant Sharing** - Share vouchers as PDF via WhatsApp, Email, or any app
+- **📊 Voucher History** - Track all generated vouchers with search and filter
+- **🔄 Recurring Fees** - Automatic monthly/weekly voucher generation
+- **🌓 Dark/Light Mode** - Comfortable viewing in any lighting
+
+## 📸 Screenshots
+
+<div align="center">
+  
+| Dashboard | Create Voucher | Voucher History |
+|:---:|:---:|:---:|
+| <img src="screenshots/dashboard.png" width="200"> | <img src="screenshots/create-voucher.png" width="200"> | <img src="screenshots/history.png" width="200"> |
+
+| Student Management | PDF Export | Settings |
+|:---:|:---:|:---:|
+| <img src="screenshots/students.png" width="200"> | <img src="screenshots/pdf-export.png" width="200"> | <img src="screenshots/settings.png" width="200"> |
+
+</div>
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- **Node.js** (v18 or newer)
+- **npm** or **yarn** or **pnpm**
+- **Expo Go** app on your physical device
+
+### Installation
+
+1. **Clone the repository**
    ```bash
-   npm install
-   ```
+   git clone https://github.com/ullahhafeez321/VoucherApp-Tuition.git
+   cd VoucherApp-Tuition
+Install dependencies
 
-2. Start the app
+bash
+npm install
+Start the development server
 
-   ```bash
-   npx expo start
-   ```
+bash
+npx expo start
+Run on your device
 
-In the output, you'll find options to open the app in a
+Scan the QR code with Expo Go app (Android) or Camera app (iOS)
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+Building for Production
+bash
+# Build for Android
+npx expo run:android
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+# Build for iOS
+npx expo run:ios
+🛠️ Tech Stack
+Framework: React Native + Expo
 
-## Get a fresh project
+Language: TypeScript
 
-When you're ready, run:
+Navigation: React Navigation
 
-```bash
-npm run reset-project
-```
+State Management: Zustand
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+UI Library: React Native Paper
 
-## Learn more
+Storage: AsyncStorage
 
-To learn more about developing your project with Expo, look at the following resources:
+PDF Generation: react-native-html-to-pdf
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+Sharing: expo-sharing
 
-## Join the community
+Icons: React Native Vector Icons
 
-Join our community of developers creating universal apps.
+📁 Project Structure
+text
+VoucherApp/
+├── app/                 # Expo Router screens
+├── components/          # Reusable UI components
+│   ├── ui/             # Basic UI components
+│   ├── forms/          # Form components
+│   └── vouchers/       # Voucher-related components
+├── constants/           # App constants & themes
+├── context/             # React Context providers
+├── hooks/               # Custom React hooks
+├── screens/             # App screens
+│   ├── Dashboard/       # Main dashboard
+│   ├── CreateVoucher/   # Voucher creation
+│   ├── History/         # Voucher history
+│   ├── Students/        # Student management
+│   └── Settings/        # App settings
+├── services/            # Business logic & storage
+├── types/               # TypeScript definitions
+├── utils/               # Helper functions
+└── assets/              # Images, fonts, icons
+💡 Usage
+Add Students: Go to Students tab to add student details
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Create Courses: Set up courses with respective fee structures
+
+Generate Vouchers: Use the Create tab to generate vouchers
+
+Manage History: View and search all generated vouchers
+
+Share Vouchers: Export and share vouchers as PDF
+
+🤝 Contributing
+We welcome contributions! Please feel free to submit issues, feature requests, or pull requests.
+
+Development Setup
+Fork the repository
+
+Create your feature branch (git checkout -b feature/AmazingFeature)
+
+Commit your changes (git commit -m 'Add some AmazingFeature')
+
+Push to the branch (git push origin feature/AmazingFeature)
+
+Open a Pull Request
+
+📄 License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+🙏 Acknowledgments
+Icons by Feather Icons
+
+UI components by React Native Paper
+
+The amazing React Native community
+
+📞 Support
+If you have any questions or need help:
+
+Open an issue
+
+Contact: ullahhafeez321@gmail.com
+
+⭐ If you find this project useful, please give it a star!
