@@ -19,16 +19,6 @@ A modern, cross-platform React Native mobile application that allows tutors and 
 - **🔄 Recurring Fees** - Automatic monthly/weekly voucher generation
 - **🌓 Dark/Light Mode** - Comfortable viewing in any lighting
 
-## 📸 Screenshots
-
-<div align="center">
-  
-| Dashboard | Create Voucher | Voucher History |
-|:---:|:---:|:---:|
-| <img src="screenshots/dashboard.png" width="200"> | <img src="screenshots/create-voucher.png" width="200"> | <img src="screenshots/history.png" width="200"> |
-
-</div>
-
 ## 🚀 Getting Started
 
 ### Prerequisites
@@ -43,26 +33,30 @@ A modern, cross-platform React Native mobile application that allows tutors and 
    ```bash
    git clone https://github.com/ullahhafeez321/VoucherApp-Tuition.git
    cd VoucherApp-Tuition
+   ```
 Install dependencies
 
-bash
-npm install
-Start the development server
+```bash
+  npm install
+  Start the development server
+```
 
-bash
+```bash
 npx expo start
 Run on your device
+```
 
 Scan the QR code with Expo Go app (Android) or Camera app (iOS)
 
 Building for Production
-bash
+```bash
 # Build for Android
 npx expo run:android
-
+```
+```bash
 # Build for iOS
 npx expo run:ios
-
+```
 # 🛠️ Tech Stack
 Framework: React Native + Expo
 
@@ -82,27 +76,7 @@ Sharing: expo-sharing
 
 Icons: React Native Vector Icons
 
-# 📁 Project Structure
-text
-VoucherApp/
-├── app/                 # Expo Router screens
-├── components/          # Reusable UI components
-│   ├── ui/             # Basic UI components
-│   ├── forms/          # Form components
-│   └── vouchers/       # Voucher-related components
-├── constants/           # App constants & themes
-├── context/             # React Context providers
-├── hooks/               # Custom React hooks
-├── screens/             # App screens
-│   ├── Dashboard/       # Main dashboard
-│   ├── CreateVoucher/   # Voucher creation
-│   ├── History/         # Voucher history
-│   ├── Students/        # Student management
-│   └── Settings/        # App settings
-├── services/            # Business logic & storage
-├── types/               # TypeScript definitions
-├── utils/               # Helper functions
-└── assets/              # Images, fonts, icons
+
 ## 💡 Usage
 Add Students: Go to Students tab to add student details
 
