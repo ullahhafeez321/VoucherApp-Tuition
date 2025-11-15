@@ -19,20 +19,6 @@ A modern, cross-platform React Native mobile application that allows tutors and 
 - **🔄 Recurring Fees** - Automatic monthly/weekly voucher generation
 - **🌓 Dark/Light Mode** - Comfortable viewing in any lighting
 
-## 📸 Screenshots
-
-<div align="center">
-  
-| Dashboard | Create Voucher | Voucher History |
-|:---:|:---:|:---:|
-| <img src="screenshots/dashboard.png" width="200"> | <img src="screenshots/create-voucher.png" width="200"> | <img src="screenshots/history.png" width="200"> |
-
-| Student Management | PDF Export | Settings |
-|:---:|:---:|:---:|
-| <img src="screenshots/students.png" width="200"> | <img src="screenshots/pdf-export.png" width="200"> | <img src="screenshots/settings.png" width="200"> |
-
-</div>
-
 ## 🚀 Getting Started
 
 ### Prerequisites
@@ -85,39 +71,8 @@ Sharing: expo-sharing
 
 Icons: React Native Vector Icons
 
-📁 Project Structure
-text
-VoucherApp/
-├── app/                 # Expo Router screens
-├── components/          # Reusable UI components
-│   ├── ui/             # Basic UI components
-│   ├── forms/          # Form components
-│   └── vouchers/       # Voucher-related components
-├── constants/           # App constants & themes
-├── context/             # React Context providers
-├── hooks/               # Custom React hooks
-├── screens/             # App screens
-│   ├── Dashboard/       # Main dashboard
-│   ├── CreateVoucher/   # Voucher creation
-│   ├── History/         # Voucher history
-│   ├── Students/        # Student management
-│   └── Settings/        # App settings
-├── services/            # Business logic & storage
-├── types/               # TypeScript definitions
-├── utils/               # Helper functions
-└── assets/              # Images, fonts, icons
-💡 Usage
-Add Students: Go to Students tab to add student details
 
-Create Courses: Set up courses with respective fee structures
-
-Generate Vouchers: Use the Create tab to generate vouchers
-
-Manage History: View and search all generated vouchers
-
-Share Vouchers: Export and share vouchers as PDF
-
-🤝 Contributing
+##🤝 Contributing
 We welcome contributions! Please feel free to submit issues, feature requests, or pull requests.
 
 Development Setup
@@ -131,21 +86,15 @@ Push to the branch (git push origin feature/AmazingFeature)
 
 Open a Pull Request
 
-📄 License
+##📄 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-🙏 Acknowledgments
-Icons by Feather Icons
 
-UI components by React Native Paper
-
-The amazing React Native community
-
-📞 Support
+##📞 Support
 If you have any questions or need help:
 
 Open an issue
 
 Contact: ullahhafeez321@gmail.com
 
-⭐ If you find this project useful, please give it a star!
+##⭐ If you find this project useful, please give it a star!
